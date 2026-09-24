@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-reddyrocks-tf-bucket-us-east-1"
+    bucket         = "devops-platform-reddy-terraform-state-629068384298 "
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
